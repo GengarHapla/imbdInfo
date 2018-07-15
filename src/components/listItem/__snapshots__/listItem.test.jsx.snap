@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem component renders correctly when no props 1`] = `<ListItem />`;
+
+exports[`ListItem component renders correctly when props with default values 1`] = `
+<ListItem
+  Title="Title"
+  Type="type"
+  Year={1}
+  imdbID="id1"
+/>
+`;

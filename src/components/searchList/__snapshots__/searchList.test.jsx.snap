@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchList component renders correctly when error 1`] = `
+<Unknown
+  results={
+    Object {
+      "Error": "An error occured",
+    }
+  }
+/>
+`;
+
+exports[`SearchList component renders correctly when no props 1`] = `<Unknown />`;
+
+exports[`SearchList component renders correctly when props with 1 item 1`] = `
+<Unknown
+  results={
+    Object {
+      "Search": Array [
+        Object {
+          "imdbID": "1",
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`SearchList component renders correctly when props with 2 items 1`] = `
+<Unknown
+  results={
+    Object {
+      "Search": Array [
+        Object {
+          "imdbID": "1",
+        },
+        Object {
+          "imdbID": "2",
+        },
+      ],
+    }
+  }
+/>
+`;

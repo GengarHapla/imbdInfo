@@ -1,29 +1,6 @@
 import { SEARCH_ACTION_FULFILLED } from "../actions/searchActions/searchActions";
 import { SORT_ACTION } from "../actions/sortActions/sortActions";
-
-const sort = (data, by) => {
-  let sortProp = '';
-
-  switch (by) {
-    case 'TITLE':
-      sortProp = 'Title';
-      break;
-    case 'DATE':
-      sortProp = 'Year';
-      break;
-    default:
-      sortProp = 'Title';
-      break;
-  }
-
-  return data.sort((a, b) => {
-    if(a[sortProp] > b[sortProp])
-      return 1;
-    if(a[sortProp] < b[sortProp])
-      return -1;
-    return 0;
-  });
-};
+import sort from '../helpers/sort';
 
 const reducer = (state = null, action) => {
   switch (action.type) {

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortBy component renders correctly when no props 1`] = `<SortBy />`;
+
+exports[`SortBy component renders correctly when props with default option 1`] = `
+<SortBy
+  default="DATE"
+/>
+`;
