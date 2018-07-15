@@ -1,0 +1,14 @@
+.list-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.expanded {
+    display: block;
+}
+.hidden {
+    display: none;
+}
